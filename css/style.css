@@ -1,4 +1,31 @@
-#card img{
-	width: 100%;
-	border-radius: 50%;
+h1,h2{
+	font-family: 'Raleway';
+}
+h1{
+	font-size: 48px;
+}
+h2{
+	font-size: 36px;
+}
+#welcome{
+	background-image: url('../img/lights.jpg');
+	background-position: left;
+	background-color: black;
+	color: white;
+	font-size: 15px;
+}
+#feature{
+	background-color: rgba(0,0,0,.85);
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+#feature img{
+	width: 240px;
+	border-radius: 60%;
+	opacity: .9;
+}
+#experience{
+	padding-bottom: 20px;
 }

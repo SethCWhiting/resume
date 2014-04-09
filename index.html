@@ -7,11 +7,51 @@
 	<script src="js/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href='http://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>
+<script type="text/javascript">
+	$(document).ready(function(){
+		var winHeight = $(window).outerHeight();
+		var welcomeHeight = $('#welcome').outerHeight();
+		if(winHeight > welcomeHeight){
+			$('#welcome').height(winHeight);
+		};
+	});
+</script>
 </head>
 <body>
-	<div id="card" class="col-sm-2">
-		<img src="img/sethcwhiting.jpg" alt="Seth C. Whiting">
-		<h1>Seth C. Whiting</h1>
-	</div>
+	<section id="welcome">
+		<div class="container text-center">
+			<div id="feature" class="col-sm-12">
+				<img src="img/sethcwhiting.jpg" alt="Seth C. Whiting">
+				<h1 class="text-warning">Seth C. Whiting</h1>
+				<label class="text-warning">THINKING. MAKING. DREAMING. DOING.</label>
+				<p class="text-warning">Creative coder with a passion for making things look beautiful while working beautifully. From branding social media pages to setting up beautiful and dynamic WordPress sites to coding mobile responsive web applications from the ground up, I'll work with you to make sure you have exactly what you need for your brand to make its maximum impact on the web.</p>
+			</div>
+		</div>
+	</section>
+	<section id="experience">
+		<div class="container">
+			<div class="col-sm-6">
+				<h2 class="text-warning">Music Pub Works</h2>
+				<label class="text-warning">JUNIOR DEVELOPER</label>
+				<p class="text-warning">Creative coder with a passion for making things look beautiful while working beautifully. From branding social media pages to setting up beautiful and dynamic WordPress sites to coding mobile responsive web applications from the ground up, I'll work with you to make sure you have exactly what you need for your brand to make its maximum impact on the web.</p>
+			</div>
+			<div class="col-sm-6">
+				<h2 class="text-warning">Poliana</h2>
+				<label class="text-warning">HEAD OF MARKETING</label>
+				<p class="text-warning">Creative coder with a passion for making things look beautiful while working beautifully. From branding social media pages to setting up beautiful and dynamic WordPress sites to coding mobile responsive web applications from the ground up, I'll work with you to make sure you have exactly what you need for your brand to make its maximum impact on the web.</p>
+			</div>
+			<div class="col-sm-6">
+				<h2 class="text-warning">Flo {Thinkery}</h2>
+				<label class="text-warning">SOCIAL MEDIA INTERN</label>
+				<p class="text-warning">Creative coder with a passion for making things look beautiful while working beautifully. From branding social media pages to setting up beautiful and dynamic WordPress sites to coding mobile responsive web applications from the ground up, I'll work with you to make sure you have exactly what you need for your brand to make its maximum impact on the web.</p>
+			</div>
+			<div class="col-sm-6">
+				<h2 class="text-warning">Blvd Music Shop</h2>
+				<label class="text-warning">FOUNDER &amp; CEO</label>
+				<p class="text-warning">Creative coder with a passion for making things look beautiful while working beautifully. From branding social media pages to setting up beautiful and dynamic WordPress sites to coding mobile responsive web applications from the ground up, I'll work with you to make sure you have exactly what you need for your brand to make its maximum impact on the web.</p>
+			</div>
+		</div>
+	</section>
 </body>
 </html>
